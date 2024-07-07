@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+<h1>Add New Employee</h1>
+
+<form action="SaveServlet" method="post">
+
+<table>
+
+<tr><td>Name:</td><td><input type="text" name="eName"/></td></tr>  
+<tr><td>Password:</td><td><input type="password" name="ePassword"/></td></tr>  
+<tr><td>Email:</td><td><input type="email" name="eEmail"/></td></tr>  
+<tr><td>City:</td><td>  
+
+<select name="eCity" style="width:150px">  
+<option>Nagpur</option>  
+<option>Delhi</option>  
+<option>Mumbai</option>  
+<option>Pune</option>  
+</select>  
+</td></tr>  
+<tr><td colspan="2">
+<input type="submit" value="Save Employee"/></td></tr>  
+
+</table>
+
+</form>
+
+<br/>  
+<a href="ViewServlet">view employees</a>  
+
+
+
+</body>
+</html>
